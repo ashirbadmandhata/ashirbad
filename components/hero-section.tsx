@@ -95,7 +95,7 @@ export default function HeroSection() {
                 transition={{ delay: 0.3 }}
                 className="heading-responsive font-bold tracking-tight leading-tight"
               >
-                Hi, I'm <span className="gradient-text">Alex Chen</span>
+                Hi, I'm <span className="gradient-text">Ashirbad Mandhata</span>
                 <br />
                 <span className="text-3xl md:text-4xl lg:text-5xl">Full-Stack</span>{" "}
                 <span className="gradient-text-alt">Developer</span>
