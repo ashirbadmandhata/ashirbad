@@ -15,7 +15,7 @@ export default function Footer() {
                 <Code className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold logo-text">DevMatrix</h3>
+                <h3 className="text-xl font-bold logo-text">Ashirbad Mandhata</h3>
                 <p className="text-xs text-neon-pink/80">Portfolio</p>
               </div>
             </div>
@@ -60,18 +60,18 @@ export default function Footer() {
             <h3 className="text-lg font-bold gradient-text">Let's Connect</h3>
             <p className="text-muted-foreground">Feel free to reach out for collaborations or just a friendly chat</p>
             <Link
-              href="mailto:contact@devmatrix.dev"
+              href="mailto:ashirbadmandhata0@gmail.com"
               className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-pink transition-colors group"
             >
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
-              contact@devmatrix.dev
+              ashirbadmandhata0@gmail.com
             </Link>
 
             {/* Social Links */}
             <div className="flex gap-4">
               {[
-                { icon: Github, href: "https://github.com", color: "hover:text-neon-purple" },
-                { icon: Linkedin, href: "https://linkedin.com", color: "hover:text-neon-blue" },
+                { icon: Github, href: "https://github.com/ashirbadmandhata", color: "hover:text-neon-purple" },
+                { icon: Linkedin, href: "https://linkedin.com/ashirbadmandhata", color: "hover:text-neon-blue" },
                 { icon: Twitter, href: "https://twitter.com", color: "hover:text-neon-cyan" },
               ].map((social, index) => (
                 <Link
@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-neon-purple/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">© {currentYear} DevMatrix Portfolio. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© {currentYear} Ashirbad Mandhata Portfolio. All rights reserved.</p>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <Link href="/privacy" className="hover:text-neon-cyan transition-colors">
                 Privacy Policy

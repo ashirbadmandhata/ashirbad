@@ -191,8 +191,8 @@ export default function HeroSection() {
                   <div className="w-full h-full rounded-full bg-gradient-to-br from-surface-1 to-surface-2 p-3">
                     <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-surface-2 to-surface-3 shadow-neumorphic-inset">
                       <Image
-                        src="/placeholder.svg?height=400&width=400"
-                        alt="Alex Chen - Full Stack Developer"
+                        src="/ashirbad.png"
+                        alt="Ashirbad Mandhata - Full Stack Developer"
                         width={400}
                         height={400}
                         className="w-full h-full object-cover"

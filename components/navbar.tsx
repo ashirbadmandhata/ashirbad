@@ -129,7 +129,7 @@ export default function Navbar() {
                       <Sparkles className="w-6 h-6 text-white" />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-lg font-bold logo-text">DevMatrix</span>
+                      <span className="text-lg font-bold logo-text">Ashirbad Mandhata</span>
                       <span className="text-xs text-neon-pink/80 -mt-1">Portfolio</span>
                     </div>
                   </Link>
@@ -200,7 +200,7 @@ export default function Navbar() {
 
                 {/* Footer */}
                 <div className="p-6 border-t border-neon-purple/20">
-                  <p className="text-sm text-muted-foreground text-center">© 2024 DevMatrix Portfolio</p>
+                  <p className="text-sm text-muted-foreground text-center">© 2024 Ashirbad Mandhata Portfolio</p>
                 </div>
               </div>
             </motion.div>
